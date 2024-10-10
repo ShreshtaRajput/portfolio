@@ -1,0 +1,245 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  text-align: center;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about img {
+  max-width: 100%;
+  height: 50vh;
+  width: 50vh;
+  overflow: hidden;
+  margin-left: 10rem;
+  border-radius: 50% !important;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.proj-card {
+  border: 1px solid white;
+  border-radius: 14px;
+  margin: 1rem;
+  padding: 2rem;
+  aspect-ratio: 10/10;
+  transition: 0.5s;
+}
+
+.proj-card:hover {
+  border: 0;
+  box-shadow: 5px 5px #9d9a9a;
+}
+
+.proj-card img {
+  height: 15rem;
+  aspect-ratio: 1/4;
+}
+
+.wanderlust-logo {
+  color: #fe424d;
+}
+
+.skills div {
+  border: 1px solid white;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 14px;
+  transition: 0.5s;
+}
+
+.skills div:hover {
+  border: 0;
+  box-shadow: 5px 5px #cbc8c8;
+}
+
+footer {
+  background-color: #000;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: #000;
+}
+
+i.bi {
+  color: #007bff;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .navbar,
+body.dark-mode footer {
+  background-color: #333;
+}
+
+body.dark-mode .btn-outline-light {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+body.dark-mode .btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+body.dark-mode .card {
+  background-color: #222;
+  color: #ffffff;
+}
+
+body.dark-mode .hero {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.name-display {
+  display: inline-block;
+  border-right: 1px solid white;
+  font-family: monospace;
+  letter-spacing: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+    border-right: 0;
+  }
+}
+
+.socials {
+  margin: 1rem;
+}
+
+.socials a {
+  text-decoration: none;
+  opacity: 0.5;
+  margin-top: 1rem;
+  font-size: 40px;
+  color: #fff;
+  padding: 1rem;
+  transition: font-size 0.5s;
+}
+
+.socials a:hover {
+  opacity: 1;
+  font-size: 45px;
+}
+
+.animate-on-load {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scroll-animation {
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: cover;
+  animation-range-end: 700px;
+}
+
+@keyframes fade-in {
+  from {
+    scale: 0.8;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.find-me-on li {
+  list-style: none;
+}
+
+.find-me-on a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 1rem;
+  color: #fff;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact a {
+  text-decoration: none;
+  text-align: center;
+  line-height: 1rem;
+  color: white;
+}
+
+#contact a:hover {
+  color: #007bff;
+}
+
+/* @media (max-width: 995px) {
+  .name-display {
+    font-size: 38px;
+  }
+
+  .card-container {
+    margin: 10px;
+    padding: 1rem;
+  }
+
+  .proj-card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+  }
+
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
+@media (max-width: 630px) {
+  #contact {
+    font-size: 10px;
+    margin: 0.5rem;
+    flex-wrap: wrap;
+  }
+} */

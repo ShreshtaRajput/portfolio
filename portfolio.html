@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body class="dark-mode">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><b>Shreshta Rajput</b></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="hero bg-primary text-white text-center py-5 animate-on-load"
+    >
+      <div class="container">
+        <h1 class="display-4 name-display">HI, I'M SHRESHTA RAJPUT</h1>
+        <p class="lead">
+          Full-Stack Web Developer | MERN Stack Expert | Problem Solver
+        </p>
+        <a href="#projects" class="btn btn-outline-light">View My Work</a>
+        <div class="socials">
+          <h4>Find me on</h4>
+          <a href="https://www.instagram.com/shreshta.rajput/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/shreshtarajput/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/ShreshtaRajput"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-5 animate-on-load">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>About Me</h1>
+            <p>
+              I am a passionate full-stack web developer with a strong foundation in the MERN stack (MongoDB, Express, React, Node.js) and a deep interest in creating user-friendly, scalable web applications. Along with my proficiency in C, C++, and Python, I am constantly learning and expanding my knowledge in data structures and algorithms to ensure I write efficient and clean code.
+              I have developed various projects ranging from a Spotify clone to a fully deployed website, which demonstrates my versatility and ability to work on diverse projects. I'm also experienced in using front-end frameworks like ReactJS and design tools like Bootstrap, ensuring my applications not only function smoothly but also look polished.
+              <br>
+              In my spare time, I enjoy exploring the latest tech trends and continuously challenging myself with new projects to improve my technical and problem-solving skills.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="C:\Users\shres\OneDrive\Desktop\Portfolio\my-img.jpg"
+              alt="Your Name"
+              class="img-fluid rounded my-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="py-5 bg-dark scroll-animation">
+      <div class="container">
+        <h1 class="display-4 text-center">Education</h1>
+        <div class="row mb-4">
+          <div class="col-md-6 col-sm-12">
+            <h4 class="institution-name">
+              Maharaja Surajmal Institute of Technology
+            </h4>
+            <p class="course-name">
+              Bachelor of Technology (Computer Science Engineering)
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12 text-md-end text-sm-start">
+            <p class="score">CGPA: 8.2/10</p>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-md-6 col-sm-12">
+            <h4 class="institution-name">Jain Bharati Mrigavati Vidyalaya</h4>
+            <p class="course-name">Schooling</p>
+          </div>
+          <div class="col-md-6 col-sm-12 text-md-end text-sm-start">
+            <p class="score">Final Score: 92.4%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-5 animate-on-load scroll-animation">
+      <div class="container">
+        <h1 class="text-center mb-4">My Projects</h1>
+        <div class="row card-container">
+          <div class="col-lg-4 mb-4">
+            <div class="card proj-card">
+              <img
+                src="C:\Users\shres\OneDrive\Desktop\Portfolio\Spotify_Logo_RGB_Green-512.webp"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Spotify Clone</h5>
+                <p class="card-text">
+                  A fully functional music streaming platform built using
+                  ReactJS and Spotify API.
+                </p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card proj-card">
+              <img
+                src="C:\Users\shres\OneDrive\Desktop\Portfolio\wanderlust-logo.svg"
+                class="card-img-top wanderlust-logo"
+                alt="Project 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">WanderLust</h5>
+                <p class="card-text">
+                  A platform for all your hotel bookings and trips using full
+                  MERN stack implementation.
+                </p>
+                <a href="https://wanderlust-f71b.onrender.com/listings" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card proj-card">
+              <img
+                src="C:\Users\shres\OneDrive\Desktop\Portfolio\skills.png"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Agribuzz</h5>
+                <p class="card-text">
+                  An AI-powered platform for agricultural insights like weather
+                  prediction and soil testing.
+                </p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card proj-card">
+              <img
+                src="C:\Users\shres\OneDrive\Desktop\Portfolio\hero-img.png"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">WireWise</h5>
+                <p class="card-text">
+                  Project by my team for Smart India Hackathon, with the frontend done by me.
+                </p>
+                <a href="https://wirewise-f7pc.onrender.com/aliRoute" class="btn btn-primary">View Project</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="py-5 animate-on-load scroll-animation">
+      <div class="container">
+        <h1 class="text-center mb-4">Skills</h1>
+        <div class="row text-center card-container skills">
+          <div class="col-lg-3 col-md-6 mb-4 card">
+            <i class="bi bi-code-square" style="font-size: 2rem"></i>
+            <h5>Languages</h5>
+            <p>Python, C, C++, JavaScript</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 card">
+            <i class="bi bi-code-slash" style="font-size: 2rem"></i>
+            <h5>Web Development</h5>
+            <p>HTML, CSS, JavaScript, ReactJS</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 card">
+            <i class="bi bi-gear-fill" style="font-size: 2rem"></i>
+            <h5>Backend</h5>
+            <p>Node.js, Express</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 card">
+            <i class="bi bi-diagram-3" style="font-size: 2rem"></i>
+            <h5>Version Control</h5>
+            <p>Git, GitHub</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 card">
+            <i class="bi bi-database" style="font-size: 2rem"></i>
+            <h5>DBMS</h5>
+            <p>MySQL, MongoDB</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <section id="contact" class="bg-dark text-white text-center py-5">
+        <div class="container cont-container">
+          <h2>Contact Me</h2>
+          <p>Interested in working together? Feel free to reach out!</p>
+          <p><a href="mailto:shreshtarajput1802@gmail.com">shreshtarajput1802@gmail.com</a></p>
+          <p><a href="tel:+919871776540">+91 9871776540</a></p>
+          <a href="mailto:shreshtarajput1802@gmail.com" class="btn btn-outline-light"
+            >Get in Touch</a
+          >
+        </div>
+        <div class="container find-me-on">
+          <h2>Find me on</h2>
+          <ul>
+            <li> <i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/shreshta.rajput/">Instagram</a></li>
+            <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/shreshtarajput/">LinkedIn</a></li>
+            <li><i class="fa-brands fa-github"></i><a href="https://github.com/ShreshtaRajput">Github</a></li>
+          </ul>
+        </div>
+      </section>
+      <div class="container">
+        <p>&copy; 2024 Shreshta Rajput. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
